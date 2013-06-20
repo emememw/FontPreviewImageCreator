@@ -1,7 +1,12 @@
-The FontPreviewImageCreator creates preview images for your TTF or OTF font.
+# **FontPreviewImageCreator**
 
-Usage Example:
+Create preview images for your TTF or OTF fonts. The generated images are already cropped and ready for further usage.
+Besides the font, you can assign the preview text, font size and font color.
 
-BufferedImage bufferedImage = FontPreviewImageCreator.createFontPreviewImage(new File("myFont.ttf"), "this is just a preview text", 50f, Color.BLACK);
+
+### Usage Example:
+
+> BufferedImage bufferedImage = 
+> FontPreviewImageCreator.createFontPreviewImage(new File("myFont.ttf"), "preview text", 50f, Color.BLACK);
 
 
